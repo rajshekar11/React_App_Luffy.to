@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.custom-form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  padding: 30px;
+  margin: auto;
+}
+
+.form-group {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input{
+  border-radius: 5px;
+}
+
+.main_div{
+  width: 100%;
+  height: 100vh;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.center_div{
+  width: 25%;
+  height: 80vh;
+  background-color:white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 40px;
+}
+
+button{
+  border-radius: 50%;
+  background-color: rgb(23, 236, 23);
+  border: none;
+  width: 45px;
+  font-size: 30px;
+  color: white;
+  margin-left: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.inptd{
+  width: 60%;
+  border: none;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  background-color: transparent;
+  border-bottom: 2px solid purple; 
+}
+
+ol{
+  margin-top: 30px;
+}
+li{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: blueviolet;
+  text-transform: capitalize;
+}

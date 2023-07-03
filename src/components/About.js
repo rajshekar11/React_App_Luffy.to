@@ -1,4 +1,5 @@
 import React from 'react'
+import Form from './Form';
 
 export default function About() {
     const onePieceCharacters = [
@@ -75,6 +76,7 @@ export default function About() {
         ))}
       </div>
       </div>
+      <Form></Form>
     </div>
   )
 }
